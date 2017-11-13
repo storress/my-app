@@ -6,7 +6,6 @@ import { HeroService} from '../hero.service';
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css'],
-  encapsulation: ViewEncapsulation.None
 })
 export class HeroesComponent implements OnInit {
 
